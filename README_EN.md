@@ -1,18 +1,4 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# <div align="center"><a href="/README.md">Português</a> | <a href="/README_EN.md">Inglês</a></div>
+<br><br>
+# Object-Oriented Programming - Vaccination Control System
+This repository contains a vaccination control system implemented in Java using Object-Oriented Programming. The system allows for the registration, editing, listing, and deletion of individuals and vaccines. It includes a function that allows for vaccinating an individual (by selecting a valid person and vaccine registration) and a feature that displays general system data to the user, such as a list of vaccinated individuals, the total number of registered individuals/vaccines, and the overall quantity of available doses.
