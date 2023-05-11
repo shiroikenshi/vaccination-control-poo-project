@@ -1,18 +1,4 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# <div align="center"><a href="/README.md">Português</a> | <a href="/README_EN.md">Inglês</a></div>
+<br><br>
+# Programação Orientada a Objetos - Sistema de Controle de Vacinação
+Este repositório contém um sistema de controle de vacinação implementado em Java utilizando Programação Orentada a Objetos. O sistema permite o cadastro, edição, listagem e exclusão de pessoas e vacinas, conta com uma função que permite vacinar uma pessoa (selecionando um cadastro válido de pessoa e vacina) e um recurso que exibe ao usuário dados gerais do sistema, como por exemplo uma lista de pessoas vacinadas, quantidade de pessoas/vacinas cadastradas e quantidade geral de doses disponíveis.
