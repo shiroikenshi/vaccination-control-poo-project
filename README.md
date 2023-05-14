@@ -31,12 +31,12 @@ A classe Cadastrar é uma extensão da classe Controle e representa o cadastro e
 * Cadastrar(nome): Construtor que será utilizado pelas classes Pessoa e Vacina para herdar o atributo "nome".
 * Cadastrar(qtdPessoas): Construtor que recebe a quantidade inicial de pessoas a serem cadastradas. Durante o código ele será instanciado com um objeto da classe Controle, será o objeto responsável por realizar o controle da nossa aplicação.
 * addVacina(vacina): Adiciona uma vacina à lista de vacinas e atualiza a quantidade de vacinas cadastradas.
-* editarVacina(index, Vacina vacina): Edita uma vacina existente na lista de vacinas pelo índice especificado.
+* editarVacina(index, vacina): Edita uma vacina existente na lista de vacinas pelo índice especificado.
 * excluirVacina(index): Exclui uma vacina da lista de vacinas pelo índice especificado e atualiza a quantidade de vacinas cadastradas.
 * retornaIdVacina(index): Retorna o objeto Vacina da lista de vacinas pelo índice especificado.
 * calculaQtdVacinas(): Calcula a quantidade total de vacinas cadastradas.
 * addPessoa(pessoa): Adiciona uma pessoa à lista de pessoas e atualiza a quantidade de pessoas cadastradas.
-* editarPessoa(index, Pessoa pessoa): Edita uma pessoa existente na lista de pessoas pelo índice especificado.
+* editarPessoa(index, pessoa): Edita uma pessoa existente na lista de pessoas pelo índice especificado.
 * excluirPessoa(index): Exclui uma pessoa da lista de pessoas pelo índice especificado e atualiza a quantidade de pessoas cadastradas.
 * retornaIdPessoa(index): Retorna o objeto Pessoa da lista de pessoas pelo índice especificado.
 * listarVacinas(): Exibe uma mensagem com a quantidade de vacinas cadastradas e lista todas as vacinas cadastradas.
