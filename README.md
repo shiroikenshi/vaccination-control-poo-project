@@ -13,7 +13,7 @@ Este repositório contém um sistema de controle de vacinação implementado em 
 A classe Controle é nossa única classe abstrata da aplicação, ela foi integrada seguindo alguns requisitos iniciais do nosso projeto. Nossa aplicação deveria possuir uma classe abstrata, e durante o desenvolvimento deveriamos aplicar os conceitos de Polimorfismo e Casting. Dito isso a classe Controle representa o controle de vacinação e possui somente um método abstrato:
 
 ##### Método:
-* toString(): Definindo esse método abstrato dentro da nossa classe abstrata, temos que todas as subclasses da nossa aplicação deveram implementar esse método utilizando o @Override.
+* toString(): Definindo esse método abstrato dentro da nossa classe abstrata, temos que todas as subclasses da nossa aplicação deverão implementar esse método utilizando o @Override.
 
 #### Classe Cadastrar (extends Controle)
 A classe Cadastrar é uma extensão da classe Controle e representa o cadastro e a manipulação de pessoas e vacinas. Ela possui os seguintes atributos e métodos:
@@ -29,7 +29,7 @@ A classe Cadastrar é uma extensão da classe Controle e representa o cadastro e
 
 ##### Métodos:
 * Cadastrar(nome): Construtor que será utilizado pelas classes Pessoa e Vacina para herdar o atributo "nome".
-* Cadastrar(qtdPessoas): Construtor que recebe a quantidade inicial de pessoas a serem cadastradas. Durante o código ele será instânciado com um objeto da classe Controle, será o objeto responsável por realizar o controle da nossa aplicação.
+* Cadastrar(qtdPessoas): Construtor que recebe a quantidade inicial de pessoas a serem cadastradas. Durante o código ele será instanciado com um objeto da classe Controle, será o objeto responsável por realizar o controle da nossa aplicação.
 * addVacina(vacina): Adiciona uma vacina à lista de vacinas e atualiza a quantidade de vacinas cadastradas.
 * editarVacina(index, Vacina vacina): Edita uma vacina existente na lista de vacinas pelo índice especificado.
 * excluirVacina(index): Exclui uma vacina da lista de vacinas pelo índice especificado e atualiza a quantidade de vacinas cadastradas.
